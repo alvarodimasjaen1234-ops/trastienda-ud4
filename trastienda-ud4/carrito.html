@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Trastienda - Mi Cesta</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html">La Trastienda</a>
+      <button type="button" aria-label="Buscar">🔍</button>
+      <button type="button" aria-label="Abrir menú">☰</button>
+    </header>
+
+    <main>
+      <h1>Mi cesta · 2 artículos</h1>
+
+      <section aria-label="Artículos en la cesta">
+        <ul>
+          <li>
+            <img
+              src="img/paciente-silenciosa.jpg"
+              alt="Portada de La paciente silenciosa"
+            />
+            <div>
+              <h2><a href="detalle.html">La paciente silenciosa</a></h2>
+              <p>Alex Michaelides · Tapa dura</p>
+              <div>
+                <button
+                  type="button"
+                  aria-label="Reducir cantidad de La paciente silenciosa"
+                >
+                  −
+                </button>
+                <span>1</span>
+                <button
+                  type="button"
+                  aria-label="Aumentar cantidad de La paciente silenciosa"
+                >
+                  +
+                </button>
+              </div>
+            </div>
+            <p>19,90 €</p>
+          </li>
+          <li>
+            <img
+              src="img/silencio-ciudad-blanca.jpg"
+              alt="Portada de El silencio de la ciudad blanca"
+            />
+            <div>
+              <h2>
+                <a href="detalle.html">El silencio de la ciudad blanca</a>
+              </h2>
+              <p>Eva García Sáenz de Urturi · Ebook</p>
+              <div>
+                <button
+                  type="button"
+                  aria-label="Reducir cantidad de El silencio de la ciudad blanca"
+                >
+                  −
+                </button>
+                <span>1</span>
+                <button
+                  type="button"
+                  aria-label="Aumentar cantidad de El silencio de la ciudad blanca"
+                >
+                  +
+                </button>
+              </div>
+            </div>
+            <p>9,99 €</p>
+          </li>
+        </ul>
+      </section>
+
+      <section aria-label="Resumen del pedido">
+        <h2>Resumen</h2>
+        <dl>
+          <dt>Subtotal</dt>
+          <dd>29,89 €</dd>
+
+          <dt>Envío</dt>
+          <dd>Gratis</dd>
+
+          <dt>Total</dt>
+          <dd>29,89 €</dd>
+        </dl>
+
+        <a href="#">Tramitar pedido</a>
+      </section>
+    </main>
+
+    <nav aria-label="Secciones de la app">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="explorar.html">Explorar</a></li>
+        <li><a href="carrito.html" aria-current="page">Cesta</a></li>
+        <li><a href="perfil.html">Perfil</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
